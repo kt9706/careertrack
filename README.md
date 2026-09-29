@@ -1,16 +1,103 @@
-# React + Vite
+# CareerTrack – Job & Internship Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CareerTrack is a React-based web application that helps students and job seekers manage their job and internship applications in one place.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 📊 Dashboard with application statistics
+* 📋 Add, edit, and delete applications
+* 🔎 Search applications by company or role
+* 🏷️ Filter applications by status
+* 📅 Track application dates
+* 🕐 Track interview dates and times
+* 📌 Dedicated interview tracker
+* 📝 Add notes to applications
+* 📈 Application analytics
+* 💾 Persistent data using browser LocalStorage
+* ⚡ Client-side navigation using React Router
+* 📱 Responsive design
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* JavaScript
+* Vite
+* React Router
+* HTML
+* CSS
+* LocalStorage
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+careertrack/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
+```
+
+## 💻 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/kt9706/careertrack.git
+```
+
+Go to the project directory:
+
+```bash
+cd careertrack
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal.
+
+## 📊 Application Status
+
+CareerTrack currently supports four application statuses:
+
+* Applied
+* Interview
+* Selected
+* Rejected
+
+## 🎯 Future Improvements
+
+* User authentication
+* Backend database
+* Cloud data synchronization
+* Resume management
+* Job recommendations
+* Application reminders
+* CSV export
+* Deployment with a live URL
+
+## 👩‍💻 Author
+
+**Khyati**
+
+B.Tech Information Technology
+Aditya College of Engineering and Technology
+
+GitHub: https://github.com/kt9706
